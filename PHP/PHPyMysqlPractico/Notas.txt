@@ -1,0 +1,20 @@
+Sección 1: Introducción Al curso
+
+Sección 2: Fundamentos de PHP
+    Variables
+        Las variables en php deben siempre iniciar con el simbolo $ ya que no sera reconocido como Variables
+    Constantes
+    Arreglos
+    Arreglos Asociativo
+    Arreglos Multidimensionales
+    Conociendo el numero de elementos de un Arreglo
+    Como recorrec Arreglos mediante el ciclo Foreach
+    Ordenar Arreglos
+    Condicional If
+    Senencia else y else If
+    Operadores
+    Switch
+    Shorthand If - Condicional Corto.
+    Ciclo For
+    Ciclo While
+
