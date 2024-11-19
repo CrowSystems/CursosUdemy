@@ -1,0 +1,7 @@
+Sección 1: Intalación en los diferentes ambientes de programación
+
+Sección 2: Conociendo PHP
+    1.- Variables.
+    2.- Arrays.
+    3.- Constantes
+    4.- Ciclo If
