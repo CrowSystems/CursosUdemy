@@ -19,4 +19,5 @@ $numero_decimal = 7.7;
  *  Null: Cuando a una variable aun no se le ha asignado ningun valor
  */
 
+echo gettype($numero)
 ?>
