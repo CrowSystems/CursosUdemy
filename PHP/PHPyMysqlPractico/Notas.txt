@@ -4,7 +4,12 @@ Sección 2: Fundamentos de PHP
     Variables
         Las variables en php deben siempre iniciar con el simbolo $ ya que no sera reconocido como Variables
     Constantes
+    
     Arreglos
+        Un array es una colección ordenada de items o elementos. Cada elemento posee un valor o value
+        y es identificado dentro del array por un indice unico o key, que puede ser de tipo int o 
+        de tipo string
+
     Arreglos Asociativo
     Arreglos Multidimensionales
     Conociendo el numero de elementos de un Arreglo
