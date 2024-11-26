@@ -21,5 +21,7 @@ function calcular($v1, $v2){
     }
     return $res;
 }
-echo "El resultado es: ".calcular($val1, $val2);
+$operacion = array('SUMA','RESTA','MULTIPLICACIÓN','DIVISIÓN');
+
+echo "El resultado de la: ".$operacion[$operador]." ".calcular($val1, $val2);
 ?>
