@@ -3,5 +3,8 @@ function sum($var1,$var2){
     $suma = $var1 + $var2;
     return $suma;
 }
-echo sum(10,10);
+$num1 = 100;
+$num2 = 20;
+
+echo sum($num1,$num2);
 ?>
