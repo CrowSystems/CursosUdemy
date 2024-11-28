@@ -1,0 +1,5 @@
+Wordpress 
+Gestor de contanidos.
+Es un sistema de gestión de contenidos creado para ayudar a los usuarios crear sitios web sin código.
+Pueden alimentar varios sitios, como blogs, tiendas online, sitios web empresariales y plataformas de 
+afiliación.
