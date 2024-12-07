@@ -13,5 +13,17 @@ $web = "crowsystems.com.mx/academy";
 $web = "crowsystems.com.mx/cursos";
 echo '<h1>'.$web.'</h1>';
 
+function holaMundo(){
+    echo __FUNCTION__;
+}
+holaMundo();
+
+/*
+Las constantes existen dentro de PHP para 
+poderlas utilizar solo es necesario mandarlas
+llamar para ejecutarse, en php tienen 
+predefinidas constantes que se pueden utilizar
+para la optimización del codigo.
+*/
 
 ?>
