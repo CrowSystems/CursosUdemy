@@ -25,4 +25,12 @@ $year--;
 ++$year;
 //pre-decremento
 --$year;
+
+//Operadores de as ignación
+$edad = 55;
+
+echo $edad.'<br>';
+
+//$edad = $edad + 5;
+echo ($edad/=5);
 ?>
