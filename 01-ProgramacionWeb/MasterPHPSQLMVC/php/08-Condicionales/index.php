@@ -18,6 +18,13 @@
  * >   MAYOR QUE
  * <=  MENOR O IGUAL QUE
  * >=  MAYOR O IGUAL QUE
+ * 
+ * 
+ * OPERADORES LOGICOS
+ * &&   AND o Y
+ * ||   OR o O
+ * !    NOT NO
+ * and, or  
 */
 //Ejemplo 1
 $color = "rojo";
@@ -73,5 +80,27 @@ if($dia == 1){
     echo "VIERNES";
 } else {
     echo "ES FIN DE SEMANA";
+}
+
+echo "<hr/>";
+
+//Ejemplo 5
+$edad1 = 18;
+$edad2 = 64;
+$edadOficial = 20;
+
+if($edadOficial >= $edad1 && $edadOficial <= $edad2) {
+    echo "ESTA EN EDAD DE TRABAJAR";
+} else {
+    echo "NO PUEDE TRABAJAR";
+}
+
+echo "<hr/>";
+
+$pais = "Mexico";
+if($pais == "Mexico" || $pais == "España" || $pais == "Colombia"){
+    echo "Este pais habla español";
+} else {
+    echo "Este pais no hablan español";
 }
 ?>
