@@ -11,7 +11,10 @@
 
 $numero = 0;
 while ($numero <= 100){
-    echo "<p>$numero</p>";
+    echo $numero;
+    if($numero != 100){
+        echo ", ";
+    }
     $numero++;
 }
 ?>
