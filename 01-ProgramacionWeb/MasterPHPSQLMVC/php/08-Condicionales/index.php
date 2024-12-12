@@ -103,4 +103,29 @@ if($pais == "Mexico" || $pais == "España" || $pais == "Colombia"){
 } else {
     echo "Este pais no hablan español";
 }
+
+echo "<hr/>";
+
+//Ejemplo SWITCH
+
+$dia2 = 4;
+
+switch ($dia2){
+    case 1:
+        echo "Lunes";
+        break;
+    case 2:
+        echo "Martes";
+        break; 
+    case 3:
+        echo "Miercoles";
+        break;
+    case 4:
+        echo "Jueves";
+    case 5:
+        echo "Viernes";
+        break;
+    default:
+    echo "Fin de Semana";
+}
 ?>
