@@ -12,7 +12,7 @@ CREATE TABLE CLASE INSERT INTO(
     ciduad
 );
 
-CREATE TABLE VENDEDOR INSERT INTO(
+CREATE TABLE VENDEDORES INSERT INTO(
     id,
     nombre,
     apellidos,
@@ -21,4 +21,20 @@ CREATE TABLE VENDEDOR INSERT INTO(
     sueldo,
     comision,
     jefe
+);
+
+CREATE TABLE CLIENTES INSERT INTO(
+    id,
+    vendedor_id,
+    nombre,
+    ciudad,
+    gastado
+);
+
+CREATE TABLE ENCARGOS INSERT INTO(
+    id,
+    cliente_id,
+    coche_id,
+    cantidad,
+    fecha
 );
